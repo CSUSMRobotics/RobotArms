@@ -1,4 +1,4 @@
-﻿Code for px100 robot arm. Bartender.py is an example demo from interbotix_ros_manipulators repository. rtc.py uses user's keyboard input for moving all 5 joints, but only 1 joint movement executes at a time due to single thread program structure. multi_threaded_rtc.py moves all 5 joints simultaneously through user's keyboard input.
+﻿Code for px100 robot arm. Bartender.py is an example demo from interbotix_ros_manipulators repository. rtc.py uses user's keyboard input for moving all 5 joints, but only 1 joint movement executes at a time due to single thread program structure. multithreaded.py moves all 5 joints simultaneously through user's keyboard input.
 
 Press LEFT and RIGHT arrow keys to move the waist joint.
 Press UP and DOWN arrow keys to move the elbow joint.
