@@ -6,4 +6,5 @@ Press 'a' and 'd' to move the shoulder joint up and down.
 Press 'w' and 's' to move the wrist angle up and down.
 Press 'o' to open the gripper, 'c' to close the gripper, and ESC to quit."
 
+https://docs.trossenrobotics.com/interbotix_xsarms_docs/ros_interface/ros2/software_setup.html#
 https://github.com/CSUSMRobotics/RobotArms/wiki/Setup-Raspberry-Pi-4-Ubuntu-20.04-Desktop-for-Robot-Arms
