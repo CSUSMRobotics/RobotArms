@@ -4,6 +4,7 @@ import numpy as np
 import sys
 import curses
 
+
 # This script makes the end-effector perform pick, pour, and place tasks
 # Note that this script is adapted for the px100 robot arm
 # Make sure to adjust commanded joint positions and poses as necessary
@@ -22,6 +23,8 @@ def main():
         )
         robot_shutdown()
         sys.exit()
+
+    bot.arm.go_to_home_pose()
 
     # allows user input through keyboard
     curses.wrapper(gripper_control, bot)
@@ -47,6 +50,7 @@ def gripper_control(stdscr, bot):
     }
 
     while True:
+
         key = stdscr.getch()
        
         if key == ord('o'):
