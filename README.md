@@ -9,3 +9,4 @@ Press 'o' to open the gripper, 'c' to close the gripper, and q to quit."
 
 https://docs.trossenrobotics.com/interbotix_xsarms_docs/ros_interface/ros2/software_setup.html#
 https://github.com/CSUSMRobotics/RobotArms/wiki/Setup-Raspberry-Pi-4-Ubuntu-20.04-Desktop-for-Robot-Arms
+https://github.com/madibabaiasl/modern-robotics-course/wiki
